@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %}About{% endblock %}</h1>
+    <p>
+        This is a simple viewer for Gatling test results in S3.<br>
+        From the <a href="{{ url_for('index')}}">main page</a> click
+        on the desired test report and you will be prompted to the relevant page.
+    </p>
+{% endblock %}

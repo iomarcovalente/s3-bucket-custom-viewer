@@ -1,0 +1,27 @@
+#navbarNav {
+    background-color: #0066b0;
+}
+
+.bg-light {
+    background-color: #0066b0 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link:hover  {
+    color: rgba(0,0,0,.9);
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(0,0,0,.9);
+}

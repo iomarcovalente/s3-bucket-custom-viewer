@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %}Test Results Bucket Content{% endblock %}</h1>
+    {% for folder in folders %}
+    <a href="/{{ folder['name']}}_1/index.html">
+        <h2>{{ folder["formatted_date"] }}</h2>
+    </a>
+    <span class="badge badge-primary">{{ folder["name"]}}</span>
+    <hr>
+{% endfor %}
+{% endblock %}
