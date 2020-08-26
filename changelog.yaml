@@ -1,4 +1,6 @@
 image-name: s3-html-viewer
 versions:
+  - tag: v0.2.0
+    description: Remove auth from about page for readiness probe to succeed
   - tag: v0.1.0
     description: First working version of s3-html-viewer
