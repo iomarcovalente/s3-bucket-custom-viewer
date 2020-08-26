@@ -56,7 +56,6 @@ def index():
     return render_template("index.html", folders=test_result_folders_formatted[::-1])
 
 @app.route("/about")
-@ldap.basic_auth_required
 def about():
     return render_template("about.html")
 
